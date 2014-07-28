@@ -1,0 +1,26 @@
+{
+  "name": "lockedpath",
+  "description": "Join path with locked (keep) root path.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/kumatch/lockedpath.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader --reporter spec test/**/*.test.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "espower-loader": "^0.7.1",
+    "intelli-espower-loader": "^0.2.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2"
+  }
+}
