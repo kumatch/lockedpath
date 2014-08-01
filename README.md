@@ -23,9 +23,6 @@ var filename2 = lockedpath("/path/to").join("..");                   // /path/to
 var filename3 = lockedpath("/path/to").join("foo", "../..", "bar");  // /path/to/bar
 ```
 
-This case will be written a JSON value to file `$HOME/.config/myapp/samples.json`.
-
-
 Methods
 -------
 
@@ -35,7 +32,7 @@ Create lockedpath instance. `filename` is a locked root path. (will keep a root 
 
 
 
-### locked.join([path1], [path2])
+### locked.join([path1], [path2], [...])
 
 Join all arguments together and normalize the resulting root path + joins paths.
 
